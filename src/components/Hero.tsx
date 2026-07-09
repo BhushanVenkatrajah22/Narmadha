@@ -70,6 +70,10 @@ export default function Hero() {
       <div className="orb orb-cyan"></div>
 
       <div className="animate-fade-in-up" style={{ zIndex: 1, display: "flex", flexDirection: "column", alignItems: "center" }}>
+        {/* Profile Photo */}
+        <div className="hero-avatar-wrapper float-slow">
+          <img src="/profile.jpg" alt="Narmatha A" className="hero-avatar" />
+        </div>
         <p className="hero-subtitle">Welcome to my universe</p>
         <h1 className="hero-title">
           Hi, I am <span>NARMATHA A</span>
